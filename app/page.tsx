@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <main className="flex flex-1 flex-col items-center justify-center px-6 py-24 text-center">
       <div className="flex max-w-xl flex-col items-center gap-10">
-        <span className="text-xs uppercase tracking-[0.2em] text-muted">
-          Budy System
+        <span
+          className="text-3xl tracking-wide text-accent"
+          style={{ fontFamily: "var(--font-chewy), cursive" }}
+        >
+          budy system
         </span>
 
         <h1 className="font-serif text-5xl leading-[1.1] tracking-tight sm:text-6xl">

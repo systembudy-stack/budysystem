@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f1e8;
-  --surface: #fbf6ee;
+  --background: #fdf9f5;
+  --surface: #fafaf8;
   --foreground: #2a1f1a;
   --muted: #7a6f66;
   --border: #e8ddd0;
-  --accent: #c97b5c;
-  --accent-hover: #b36849;
+  --accent: #bc2c24;
+  --accent-hover: #9c1f19;
   --her: #d4a5a5;
   --partner: #8fa889;
 }
@@ -27,11 +27,15 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+.font-marker {
+  font-family: var(--font-chewy), cursive;
 }
 
 @keyframes fadeIn {
