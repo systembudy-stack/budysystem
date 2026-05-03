@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Fraunces, Chewy } from "next/font/google";
+import Nav from "@/components/Nav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -20,9 +21,9 @@ const chewy = Chewy({
 });
 
 export const metadata: Metadata = {
-  title: "Budy System — a night together",
+  title: "Budy System — hormonal health for women",
   description:
-    "A guided 30-minute experience for couples to understand her hormonal health, together.",
+    "Coaching, tracking, community, and more — everything your body deserves, finally in one place.",
 };
 
 export default function RootLayout({
@@ -43,6 +44,7 @@ export default function RootLayout({
           backgroundSize: "200px 200px",
         }}
       >
+        <Nav />
         {children}
       </body>
     </html>
