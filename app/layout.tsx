@@ -35,6 +35,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${geistSans.variable} ${fraunces.variable} ${chewy.variable} h-full antialiased`}
+      style={{ scrollBehavior: "smooth" }}
     >
       <body
         className="min-h-full flex flex-col"

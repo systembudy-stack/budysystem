@@ -58,17 +58,17 @@ export default function Home() {
             Coaching, tracking, community, and more — everything your body
             deserves, finally in one place.
           </p>
-          <Link
-            href="/coaching"
+          <a
+            href="#services"
             className="mt-2 inline-flex h-13 items-center justify-center rounded-full bg-accent px-9 text-base font-medium text-background transition-colors hover:bg-accent-hover"
           >
             Find your path →
-          </Link>
+          </a>
         </div>
       </section>
 
       {/* Services grid */}
-      <section className="mx-auto w-full max-w-5xl px-6 pb-28">
+      <section id="services" className="mx-auto w-full max-w-5xl px-6 pb-28">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
             <Link
